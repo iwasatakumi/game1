@@ -12,6 +12,6 @@ public class PlayerController1 : MonoBehaviour
 		Rigidbody rigidbody = GetComponent<Rigidbody>();
 
 
-		rigidbody.AddForce(x * 10, 0, z * 10);
+		rigidbody.AddForce(x * 7, 0, z * 20);
 	}
 }
